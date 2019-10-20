@@ -26,10 +26,12 @@
 
 ---
 
-To push a single tag:
+To push a single tag
+
 `git push origin <tag_name>`
 
 push all tags (not recommended)
+
 `git push --tags`
 
 ---
@@ -72,6 +74,7 @@ diff file between branches
 选出在一个分支中而不在另一个分支中的提交
 
 查看 experiment 分支中还有哪些提交尚未被合并入 master 分支
+
 `git log master..experiment`
 
 如果你想看 master 或者 experiment 中包含的但不是两者共有的提交，你可以执行
@@ -105,6 +108,7 @@ To search the commit log (across all branches) for the given text:
 ---
 
 [4 Advanced Git Commands That Will Save Your Time](https://dev.to/codicacom/4-advanced-git-commands-alp)
+
 This Git command gives you an opportunity to pull in the commits of another engineer and rebase your changes on top.
 
 ```
