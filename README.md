@@ -6,7 +6,7 @@
 
 ---
 
-- [How to change the commit author for one specific commit?](https://stackoverflow.com/questions/3042437/how-to-change-the-commit-author-for-one-specific-commit)
+[How to change the commit author for one specific commit?](https://stackoverflow.com/questions/3042437/how-to-change-the-commit-author-for-one-specific-commit)
 
 > `A-B-C-D-E-F` with `F` as HEAD
 
