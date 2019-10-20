@@ -1,5 +1,7 @@
 [用 reflog 恢复数据](https://git-scm.com/book/zh/v1/Git-%E5%86%85%E9%83%A8%E5%8E%9F%E7%90%86-%E7%BB%B4%E6%8A%A4%E5%8F%8A%E6%95%B0%E6%8D%AE%E6%81%A2%E5%A4%8D)
+
 `git log -g`
+
 `git branch recover-branch ab1afef`
 
 ---
@@ -18,6 +20,7 @@
 ---
 
 `git add -p`
+
 > 添加每个变化前，都会要求确认
 > 对于同一个文件的多处变化，可以实现分次提交
 
@@ -100,6 +103,7 @@ To search the commit log (across all branches) for the given text:
 [How to search a Git repository by commit message?](https://stackoverflow.com/questions/7124914/how-to-search-a-git-repository-by-commit-message)
 
 ---
+
 [4 Advanced Git Commands That Will Save Your Time](https://dev.to/codicacom/4-advanced-git-commands-alp)
 This Git command gives you an opportunity to pull in the commits of another engineer and rebase your changes on top.
 
